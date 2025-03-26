@@ -1,22 +1,24 @@
 # Faz a conversão de int, float e strings.
-#int
 
-x = int(2)  #int = numeros inteiros 
-y = int(2.8) #float = numeros quebrados
-z = int('2') #string pois esta entre parenteses 
+# Conversão para int
+x = int(2)       # converte o número 2 para inteiro
+y = int(2.8)     # converte o número 2.8 para inteiro, truncando a parte decimal
+z = int('2')     # converte a string '2' para inteiro
 
-print(x, y, z ) # ao fazer isso voce converte para o tipo que esta escolhendo como int, float ou string
+print(x, y, z)   # imprime os valores convertidos para inteiros
 
-#float
+# Conversão para float
+a = float(2)     # converte o número 2 para float
+b = float(2.8)   # mantém o número 2.8 como float
+c = float('2')   # converte a string '2' para float
 
-a = float(2)  #int = numeros inteiros 
-b = float(2.8) #float = numeros quebrados
-c = float('2') #string pois esta entre parenteses 
-print(a, b, c )
+print(a, b, c)   # imprime os valores convertidos para float
 
-d = str(2)  #int = numeros inteiros 
-e = str(2.8) #float = numeros quebrados
-f = str('s1') #string pois esta entre parenteses 
-print("a variavel d é do tipo: ", type(d))
-print("a variavel d é do tipo: ", type(e))
-print("a variavel d é do tipo: ", type(f))
+# Conversão para string
+d = str(2)       # converte o número 2 para string
+e = str(2.8)     # converte o número 2.8 para string
+f = str('s1')    # mantém a string 's1' como string
+
+print("a variável d é do tipo: ", type(d))
+print("a variável e é do tipo: ", type(e))
+print("a variável f é do tipo: ", type(f))
